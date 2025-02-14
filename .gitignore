@@ -2,6 +2,7 @@
 # OS X
 ############################
 .env
+config/database.ts
 /node_modules
 .DS_Store
 .AppleDouble
