@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
       port: env.int('DATABASE_PORT', 5432),
       database: env('DATABASE_NAME', 'chatlist'),  // Ensure this database exists
       user: env('DATABASE_USERNAME', 'komal'),    // Change if needed
-      password: env('DATABASE_PASSWORD', 'komal@123'), // Ensure it's correct
+      password: env('DATABASE_PASSWORD', 'hBcWYfaBAaGgegk4ezn9bpaXpmfVwHBl'), // Ensure it's correct
       ssl: env.bool('DATABASE_SSL', false),
     },
   },
